@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+
+@layer base {
+@font-face{
+    font-family: Bryndan;
+    src: url(./lib/assets//font/bryndan-write-font/bryndan-write-book.ttf);
+}
+@font-face{
+  font-family: Jingle;
+  src: url(./lib/assets//font//jingleberry/jingleberry.otf);
+}
+:root {
+  --background: 20 26% 93%;
+  --foreground: 0 0% 0%;
+  --card: 20 26% 93%;
+  --card-foreground: 0 0% 0%;
+  --popover: 20 26% 93%;
+  --popover-foreground: 0 0% 0%;
+  --primary: 39 85% 67%;
+  --primary-foreground: 0 0% 0%;
+  --secondary: 355 78% 77%;
+  --secondary-foreground: 0 0% 0%;
+  --muted: 21 25% 20%;
+  --muted-foreground: 0 0% 70%;
+  --accent: 169 73% 81%;
+  --accent-foreground: 0 0% 0%;
+  --destructive: 0 85% 60%;
+  --destructive-foreground: 0 0% 0%;
+  --border: 21 25% 20%;
+  --input: 21 25% 20%;
+  --ring: 169 73% 40%;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 20 26% 7%;
+  --foreground: 0 0% 100%;
+  --card: 20 26% 7%;
+  --card-foreground: 0 0% 100%;
+  --popover: 20 26% 7%;
+  --popover-foreground: 0 0% 100%;
+  --primary: 39 85% 33%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 355 78% 23%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 21 25% 80%;
+  --muted-foreground: 0 0% 100%;
+  --accent: 169 73% 19%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 62% 30%;
+  --destructive-foreground: 0 0% 10%;
+  --border: 20 26% 60%;
+  --input: 21 25% 80%;
+  --ring: 169 73% 60%;
+}
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
