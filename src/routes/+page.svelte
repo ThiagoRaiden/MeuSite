@@ -2,6 +2,7 @@
     import { Parallax, ParallaxLayer } from "svelte-parallax";
     import focaIlustation from "$lib/assets/ilustracoes/foca.png";
     import bolha from "$lib/assets/ilustracoes/bolha.png";
+    import sunsational from "$lib/assets/ilustracoes/sunsational.png"
     import cardImg from "$lib/assets/banana.png";
     import rosto from "$lib/assets/ilustracoes/rosto.png";
     import * as Carousel from "$lib/components/ui/carousel/index.js";
@@ -9,7 +10,9 @@
 </script>
 
 <Parallax sections={3} config={{ stiffness: 0.2, damping: 0.4 }} >
-    <ParallaxLayer class="z-20 bg-background z-30" >
+    <ParallaxLayer class="z-20 bg-background z-30 relative">
+        <img class="absolute w-40 left-[50px]  top-[50px] animate-wiggle" src="{sunsational}" alt="">
+        <img class="absolute w-48 right-[100px]  top-[50px] animate-wiggle" src="{focaIlustation}" alt="">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 h-full items-center relative "
         >
             <div class="mr-auto place-self-center lg:col-span-6">

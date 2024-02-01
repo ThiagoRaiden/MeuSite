@@ -14,6 +14,15 @@ const config = {
 			}
 		},
 		extend: {
+			keyframes: {
+				wiggle: {
+				  '0%, 100%': { transform: 'rotate(-3deg)' },
+				  '50%': { transform: 'rotate(3deg)' },
+				}
+			  },
+			  animation: {
+				wiggle: 'wiggle 2s ease-in-out infinite',
+			  },
 			colors: {
 				border: "hsl(var(--border) / <alpha-value>)",
 				input: "hsl(var(--input) / <alpha-value>)",
