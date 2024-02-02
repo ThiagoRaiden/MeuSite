@@ -2,10 +2,13 @@
     import { Parallax, ParallaxLayer } from "svelte-parallax";
     import focaIlustation from "$lib/assets/ilustracoes/foca.png";
     import bolha from "$lib/assets/ilustracoes/bolha.png";
+    import livro from "$lib/assets/ilustracoes/amazing.png"
     import sunsational from "$lib/assets/ilustracoes/sunsational.png"
+    import gosma from "$lib/assets/ilustracoes/amoebaAmarela.png"
     import cardImg from "$lib/assets/banana.png";
     import rosto from "$lib/assets/ilustracoes/rosto.png";
     import * as Carousel from "$lib/components/ui/carousel/index.js";
+
     const shadow = "shadow-[0px_-20px_30px_15px_#F2C063]";
 </script>
 
@@ -66,7 +69,7 @@
                 
             <h2 class="mb-4 text-6xl md:text-8xl lg:text-5xl font-extrabold tracking-tight leading-none font-Jingle">No seu tempo!</h2>
             <div class="w-24  self-end">
-                <img src={rosto} alt="mockup" class="   " />
+                <img src={livro} alt="mockup" class="   " />
                  </div>
             
             </div>
@@ -92,11 +95,20 @@
             <ol class="list-decimal list-inside before ">
             <h2 class="mb-4 text-6xl md:text-8xl lg:text-5xl font-extrabold tracking-tight leading-none font-Jingle">Material</h2>
         
-            <li class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-3xl text-xl relative" >  
-                     
-                Livro completo em PDF.
-            
-            </li>
+
+<li class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-3xl text-xl flex items-center gap-1"
+>
+<div class="w-12 h-12 relative ">
+<img
+class="absolute z-0"
+src={gosma}
+alt=""
+/>
+<span class="z-20 absolute w-full h-full flex items-center justify-center">1.</span>
+</div>
+Livro completo em PDF.
+</li>
+
           
             <li class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-3xl text-xl">               
                 Livro de Exercícios completo em PDF. 
