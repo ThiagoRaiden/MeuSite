@@ -1,7 +1,7 @@
 <script lang="ts">
     import { Parallax, ParallaxLayer } from "svelte-parallax";
     import focaIlustation from "$lib/assets/ilustracoes/foca.png";
-    import bolha from "$lib/assets/ilustracoes/bolha.png";
+
     import livro from "$lib/assets/ilustracoes/amazing.png";
     import sunsational from "$lib/assets/ilustracoes/sunsational.png";
     import gosma from "$lib/assets/ilustracoes/amoebaAmarela.png";
@@ -267,9 +267,7 @@
         border-radius: 22% 78% 57% 43% / 62% 49% 51% 38%;
     }
 
-    li::before {
-        background-image: url("lib/assets/ilustracoes/bolha.png");
-    }
+  
 
     li {
         background-size: 20px;
