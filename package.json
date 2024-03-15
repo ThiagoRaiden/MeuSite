@@ -27,8 +27,6 @@
   },
   "type": "module",
   "dependencies": {
-    "@fullcalendar/core": "^6.1.11",
-    "@fullcalendar/timegrid": "^6.1.11",
     "bits-ui": "^0.19.6",
     "clsx": "^2.1.0",
     "lucide-svelte": "^0.356.0",
