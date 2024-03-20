@@ -1,12 +1,29 @@
 <script lang="ts">
     import { Parallax, ParallaxLayer } from "svelte-parallax";
-    import focaIlustation from "$lib/assets/ilustracoes/foca.png";
-
     import livro from "$lib/assets/ilustracoes/amazing.png";
-    import sunsational from "$lib/assets/ilustracoes/sunsational.png";
     import gosma from "$lib/assets/ilustracoes/amoebaAmarela.png";
     import cardImg from "$lib/assets/banana.png";
-    import rosto from "$lib/assets/ilustracoes/rosto.png";
+    import danilo from "$lib/assets/danilo.png";
+    import ana from "$lib/assets/Ana.png";
+    import aline from "$lib/assets/Aline.png";   
+    import daniel from "$lib/assets/daniel.png";
+    import felipe from "$lib/assets/Felipe.png";
+    import gabrielzinho from "$lib/assets/gabrielzinho.png";
+    import guilherme from "$lib/assets/guilherme.png";
+    import heloisa from "$lib/assets/heloisa.png";
+    import priscila from "$lib/assets/Priscila.png";
+    import rafael from "$lib/assets/Rafael.png";
+    import sabryna from "$lib/assets/Sabryna.png";
+    import suzan from "$lib/assets/suzan.png";
+    import vihn from "$lib/assets/Vihn.png";
+    import weil from "$lib/assets/weil.png";
+    import tiemi from "$lib/assets/Tiemi.png";
+    import lia from "$lib/assets/Lia.png";
+    import leonildo from "$lib/assets/leonildo.png";
+    import antonio from "$lib/assets/Antonio.png";
+    import kevin from "$lib/assets/kevin.png";
+    import gabriel from "$lib/assets/gabriel.png";
+
     import * as Carousel from "$lib/components/ui/carousel/index.js";
     import HeroContentIntro from "./HeroContentIntro.svelte";
 
@@ -54,7 +71,7 @@
                 class="mx-15 w-1/2 bg-primary z-0 px-10 py-5 boderStyle"
             >
                 <h1
-                    class="mb-4 text-6xl md:text-8xl lg:text-8xl font-extrabold tracking-tight leading-none font-Jingle text-red-300"
+                    class="mb-4 text-6xl md:text-8xl lg:text-6xl font-extrabold tracking-tight leading-none font-Jingle text-red-300"
                     style="  text-shadow:
                     3px 3px 2px #000,
                     -3px 3px 2px #000,
@@ -66,7 +83,7 @@
 
                 <div class="flex items-center justify-between">
                     <h2
-                        class="mb-4 text-6xl md:text-8xl lg:text-5xl font-extrabold tracking-tight leading-none font-Jingle"
+                        class="mb-4 text-6xl md:text-8xl lg:text-4xl font-extrabold tracking-tight leading-none font-Jingle"
                     >
                         No seu tempo!
                     </h2>
@@ -75,29 +92,29 @@
                     </div>
                 </div>
                 <p
-                    class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-3xl text-xl"
+                    class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-2xl text-xl"
                 >
                     Você escolhe quando e quanto tempo de aula for melhor para
                     você!
                 </p>
                 <h2
-                    class="mb-4 text-6xl md:text-8xl lg:text-5xl font-extrabold tracking-tight leading-none font-Jingle"
+                    class="mb-4 text-6xl md:text-6xl lg:text-4xl font-extrabold tracking-tight leading-none font-Jingle"
                 >
                     Do seu jeito!
                 </h2>
                 <p
-                    class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-3xl text-xl"
+                    class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-2xl text-xl"
                 >
                     As aulas são personalizadas de acordo com as suas
                     necessidades e a sua personalidade.
                 </p>
                 <h2
-                    class="mb-4 text-6xl md:text-8xl lg:text-5xl font-extrabold tracking-tight leading-none font-Jingle"
+                    class="mb-4 text-6xl md:text-6xl lg:text-4xl font-extrabold tracking-tight leading-none font-Jingle"
                 >
                     Flexibilidade!
                 </h2>
                 <p
-                    class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-3xl text-xl"
+                    class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-2xl text-xl"
                 >
                     Precisou faltar? Não tem problema! Desde que avisado com
                     antecedência, as aulas poderão ser repostas.
@@ -115,7 +132,7 @@
                 class="mx-5 w-1/2 bg-secondary px-10 py-5 boderStyle2"
             >
                 <h1
-                    class="mb-4 text-6xl md:text-8xl lg:text-8xl font-extrabold tracking-tight leading-none font-Jingle text-primary"
+                    class="mb-4 text-6xl md:text-8xl lg:text-4xl font-extrabold tracking-tight leading-none font-Jingle text-primary"
                     style="  text-shadow:
                     3px 3px 2px #000,
                     -3px 3px 2px #000,
@@ -127,13 +144,13 @@
 
                 <ol class=" list-inside before">
                     <h2
-                        class="mb-4 text-6xl md:text-8xl lg:text-5xl font-extrabold tracking-tight leading-none font-Jingle"
+                        class="mb-4 text-6xl md:text-8xl lg:text-3xl font-extrabold tracking-tight leading-none font-Jingle"
                     >
                         Material
                     </h2>
 
                     <li
-                        class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-3xl text-xl flex items-center gap-1"
+                        class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-xl text-xl flex items-center gap-1"
                     >
                         <div class="w-12 h-12 relative">
                             <img class="absolute z-0" src={gosma} alt="" />
@@ -146,7 +163,7 @@
                     </li>
 
                     <li
-                        class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-3xl text-xl flex items-center gap-1"
+                        class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-xl text-xl flex items-center gap-1"
                     >
                         <div class="w-12 h-12 relative">
                             <img class="absolute z-0" src={gosma} alt="" />
@@ -159,7 +176,7 @@
                     </li>
 
                     <li
-                        class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-3xl text-xl flex items-center gap-1"
+                        class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-xl text-xl flex items-center gap-1"
                     >
                         <div class="w-12 h-12 relative">
                             <img class="absolute z-0" src={gosma} alt="" />
@@ -173,14 +190,14 @@
                 </ol>
 
                 <h2
-                    class="mb-4 text-6xl md:text-8xl lg:text-5xl font-extrabold tracking-tight leading-none font-Jingle"
+                    class="mb-4 text-6xl md:text-8xl lg:text-3xl font-extrabold tracking-tight leading-none font-Jingle"
                 >
                     Suporte
                 </h2>
 
                 <ol class="list-inside">
                     <li
-                        class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-3xl text-xl flex items-center gap-1"
+                        class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-xl text-xl flex items-center gap-1"
                     >
                         <div class="w-12 h-12 relative">
                             <img class="absolute z-0" src={gosma} alt="" />
@@ -193,7 +210,7 @@
                     </li>
 
                     <li
-                        class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-3xl text-xl flex items-center gap-1"
+                        class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-xl text-xl flex items-center gap-1"
                     >
                         <div class="w-12 h-12 relative">
                             <img class="absolute z-0" src={gosma} alt="" />
@@ -206,7 +223,7 @@
                     </li>
 
                     <li
-                        class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-3xl text-xl flex items-center gap-1"
+                        class="mb-6 font-Bryndan lg:mb-8 md:text-lg lg:text-xl text-xl flex items-center gap-1"
                     >
                         <div class="w-12 h-12 relative">
                             <img class="absolute z-0" src={gosma} alt="" />
@@ -352,12 +369,154 @@
             </h1>
             <Carousel.Root>
                 <Carousel.Content>
-                    {#each { length: 10 } as _, i}
-                        <Carousel.Item
-                            class={innerWidth > 900 ? "basis-1/5" : "basis-1/2"}
-                            ><img src={cardImg} alt="" /></Carousel.Item
+                    <Carousel.Item
+                            class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+                            >
+                            <img src={danilo} alt="" />
+                            
+                            </Carousel.Item
                         >
-                    {/each}
+                    
+                        <Carousel.Item
+                            class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+                            >
+                            <img src={kevin} alt="" />
+                            
+                            </Carousel.Item
+                        >
+                        <Carousel.Item
+                        class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+                        >
+                        <img src={ana} alt="" />
+                        
+                        </Carousel.Item
+                    >
+                    <Carousel.Item
+                    class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+                    >
+                    <img src={antonio} alt="" />
+                    
+                    </Carousel.Item
+                >
+                <Carousel.Item
+                class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+                >
+                <img src={daniel} alt="" />
+                
+                </Carousel.Item
+            >
+            <Carousel.Item
+            class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+            >
+            <img src={felipe} alt="" />
+            
+            </Carousel.Item
+        >
+        <Carousel.Item
+        class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+        >
+        <img src={sabryna} alt="" />
+        
+        </Carousel.Item
+    >
+    <Carousel.Item
+    class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+    >
+    <img src={gabrielzinho} alt="" />
+    
+    </Carousel.Item
+>
+<Carousel.Item
+class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+>
+<img src={guilherme} alt="" />
+
+</Carousel.Item
+>
+<Carousel.Item
+class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+>
+<img src={heloisa} alt="" />
+
+</Carousel.Item
+>
+
+<Carousel.Item
+class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+>
+<img src={leonildo} alt="" />
+
+</Carousel.Item
+>
+<Carousel.Item
+class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+>
+<img src={lia} alt="" />
+
+</Carousel.Item
+>
+<Carousel.Item
+class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+>
+<img src={priscila} alt="" />
+
+</Carousel.Item
+>
+<Carousel.Item
+class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+>
+<img src={rafael} alt="" />
+
+</Carousel.Item
+>    
+<Carousel.Item
+class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+>
+<img src={vihn} alt="" />
+
+</Carousel.Item
+>   
+<Carousel.Item
+class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+>
+<img src={weil} alt="" />
+
+</Carousel.Item
+>       
+
+<Carousel.Item
+class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+>
+<img src={tiemi} alt="" />
+
+</Carousel.Item
+>
+<Carousel.Item
+class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+>
+<img src={aline} alt="" />
+
+</Carousel.Item
+>
+
+<Carousel.Item
+class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+>
+<img src={gabriel} alt="" />
+
+</Carousel.Item
+>
+
+<Carousel.Item
+                            class={innerWidth > 900 ? "basis-1/2" : "basis-1/2"}
+                            >
+                            <img src={suzan} alt="" />
+                            
+                            </Carousel.Item
+                        >
+ 
+                        
+                 
                 </Carousel.Content>
             </Carousel.Root>
         </div>
